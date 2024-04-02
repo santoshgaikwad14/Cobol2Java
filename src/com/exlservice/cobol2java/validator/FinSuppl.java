@@ -4,7 +4,12 @@ import com.exlservice.cobol2java.dto.EditResults;
 import com.exlservice.cobol2java.dto.PartSuppAddrPO;
 import com.exlservice.cobol2java.constants.Constants;
 
-import static com.exlservice.cobol2java.util.ValidationUtil.*;
+import static com.exlservice.cobol2java.util.ValidationUtil.checkSupplierPerf;
+import static com.exlservice.cobol2java.util.ValidationUtil.isEmptyString;
+import static com.exlservice.cobol2java.util.ValidationUtil.isValidAddressType;
+import static com.exlservice.cobol2java.util.ValidationUtil.isValidRating;
+import static com.exlservice.cobol2java.util.ValidationUtil.isValidSupplier;
+import static com.exlservice.cobol2java.util.ValidationUtil.isValidSupplierStatus;
 
 public class FinSuppl {
 

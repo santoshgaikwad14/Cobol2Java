@@ -1,7 +1,10 @@
 package com.exlservice.cobol2java.parsers;
 
-
-import com.exlservice.cobol2java.dto.*;
+import com.exlservice.cobol2java.dto.PartSuppAddrPO;
+import com.exlservice.cobol2java.dto.Parts;
+import com.exlservice.cobol2java.dto.PurchaseOrder;
+import com.exlservice.cobol2java.dto.SuppAdd;
+import com.exlservice.cobol2java.dto.Suppliers;
 
 public class PartSuppAddrParser {
 

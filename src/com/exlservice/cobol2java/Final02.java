@@ -11,8 +11,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
-import static com.exlservice.cobol2java.constants.Constants.*;
-
+import static com.exlservice.cobol2java.constants.Constants.EDIT_RESULT_STATUS_Y;
+import static com.exlservice.cobol2java.constants.Constants.LINE_FORMATTING;
+import static com.exlservice.cobol2java.constants.Constants.PART_SUPP_INPUT_FILE;
+import static com.exlservice.cobol2java.constants.Constants.PROCESSING_RECORD;
+import static com.exlservice.cobol2java.constants.Constants.RESULT_FORMATTING;
 
 public class Final02 {
 
